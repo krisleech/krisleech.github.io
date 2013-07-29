@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Teaching Ruby to children"
+date: 2013-07-28 21:01
+comments: true
+published: true
+categories: [ruby]
+---
+
+69 Seconds
+69 Seconds is a "self help" book with a difference. Instead of the authors oppion being expressed you are presented with peer reviewed research and their findings. In most cases multiple independant studies are used to verify a point. But don't be mistaken this book is not dry.
+
+2012-02-20

@@ -1,11 +1,18 @@
 ---
 layout: post
-title: "Teaching Ruby to children"
+title: "Teaching Programming to children"
 date: 2013-07-28 21:01
 comments: true
-published: false
+published: true
 categories: [ruby]
 ---
+
+http://www.code.org/
+
+http://ase.tufts.edu/DevTech/ScratchJr/ScratchJrHome.aspo
+http://scratch.mit.edu/u
+
+http://islalanguage.org/
 
 This is a collection of resources I want to keep which might help teach Ruby to
 children.

@@ -1,0 +1,61 @@
+---
+layout: post
+title: "Hiding code"
+date: 2013-07-28 21:01
+comments: true
+published: true
+categories: [ruby]
+---
+
+Commenting out large chunks of code in Erb templates is sometimes a bit tricky, time consuming  and looks ugly even with an IDE like Netbeans.
+
+For example:
+
+```erb
+<% if @document.fresh? %>
+  <div class="fresh document"><%= link_to @document.title, @document %></div>
+<% end %>
+becomes:
+
+<%# if @document.fresh? %>
+  <%#*<div class="document fresh">%><br>    <%#= link_to @document.title, @document %><br>  <%#*</div>%>
+<%# end %>
+```
+
+or
+
+```erb
+<%# if @document.fresh? %>
+<!-- <div class='document fresh'> -->
+  <%#= link_to @document.title, @document %>
+<!-- </div> -->
+<%# end %>
+```
+
+Only a few lines and not very plesent to read.
+
+A better way to comment out code in Erb?
+
+The key is not to use comments:
+
+```erb
+<% hide do %>
+  <% if @document.fresh? %>
+    <div class="document fresh"><%= link_to @document.title, @document %></div>
+  <% end %>
+<% end %>
+```
+
+And the implimentation of hide is super simple:
+
+application_helper.rb
+
+```ruby
+def hide(&block)
+  # do not yield
+end
+```
+
+We accept the block but don't yield it. Could this be the simplest DSL implimentaion ever?
+
+Maybe DSL is pushing it, but still...
