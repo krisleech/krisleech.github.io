@@ -1,46 +1,19 @@
 ---
 layout: post
-title: "Teaching Ruby to children"
-date: 2013-07-28 21:01
+title: "Automate tmux and get to coding quicker"
+date: 2013-03-30 21:01
 comments: true
 published: true
-categories: [ruby]
+categories: [tmux, ruby]
 ---
 
-Automate tmux and get to coding quicker
-30/03/2012
-
 Here is an example of how to automate startup of your development environment with tmux. I use Ruby/Rails, Rspec and Vim so this shows their use, but it would equally apply to any terminal based setup.
-
- 
 
 Update: I wrote a rubygem to automate the creating of tmux configurations like the one below: tmuxinator. 
 
 Create a function which starts a tmux session, sends key strokes to create windows and run commands, then attach to the session. I put this file in ~/bin/zsh.
 
- 
-
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
+```bash
 #!/bin/sh
  
 function matripa
@@ -62,19 +35,19 @@ function matripa
   tmux select-window -t matripa:0
   tmux attach-session -t matripa
 }
-view rawmatripaThis Gist brought to you by GitHub.
+```
+
 Source the function so its always available and has autocomplete (tested with zsh).
 
-1
-2
-3
+```bash
 # ~/.zshrc
  
 source ~/bin/zsh/matripa
-view rawzshrcThis Gist brought to you by GitHub.
+```
+
 Now start a new terminal and type matripa. Or even ma and press tab.
 
-This works well with RVM if you have a .rvmrc file in your project root.
+This works well with RVM if you have a `.rvmrc` file in your project root.
 
 <iframe border="0" height="524" id="shelr_record_4f8691a69660807979000003" scrolling="no" src="http://shelr.tv/records/4f8691a69660807979000003/embed" style="border: 0" width="654"></iframe>
 

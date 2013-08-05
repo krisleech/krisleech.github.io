@@ -3,7 +3,8 @@ layout: post
 title: "encapsulating a use case"
 date: 2013-07-20 21:01
 comments: true
-categories: 
+published: false
+categories: [ruby]
 ---
 
 In this post I am going to describe a technique I have been using recently to

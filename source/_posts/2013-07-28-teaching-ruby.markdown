@@ -7,6 +7,10 @@ published: true
 categories: [ruby]
 ---
 
+A collection of links about teaching programming to children/kids.
+
+<!--more -->
+
 http://www.code.org/
 
 http://ase.tufts.edu/DevTech/ScratchJr/ScratchJrHome.aspo
