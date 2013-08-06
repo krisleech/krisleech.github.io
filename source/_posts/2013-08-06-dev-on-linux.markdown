@@ -31,8 +31,12 @@ turbo-vim
 
 My dotfiles, inc. tmux.conf, conkyrc
 
-Terminator, turned off borders. Without borders the window can be resized and
+Terminator:
+
+* Turned off borders. Without borders the window can be resized and
 moved by holding Alt + Right/Left mouse button.
+* font, Inconsolata-dz 10
+
 
 A wallpaper from Deviant Art.
 
