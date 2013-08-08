@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vim, Tmux, Rspec on MacOS"
-date: 2013-07-28 21:01
+date: 2011-10-01 21:01
 comments: true
 published: true
 categories: [ruby]

@@ -10,6 +10,8 @@ categories: [linux]
 A guide to a nice development environment on GNU/Linux with Debian based
 CrunchBang.
 
+![desktop screenshot](/images/vim-crunch.png)
+
 <!--more-->
 
 For the last few months I've been using CrunchBang, a Debian based Linux/GNU
@@ -19,7 +21,6 @@ Debain it uses `apt-get` for package management.
 I'm running Crunch on a newish laptop with a SSD harddrive. It boots in a
 matter of seconds.
 
-![desktop screenshot](/images/vim-crunch.png)
 
 ## Specs
 

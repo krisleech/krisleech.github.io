@@ -7,6 +7,8 @@ published: true
 categories: [gtd]
 ---
 
-Here is an easy tip for getting a zero inbox. Add a filter to move any mail with "no-reply" in the sender in to a seperate folder, it is automated mail so is unlikely to be urgent.
+![desktop screenshot](/images/zero-inbox.png)
 
-NEEDS NEW IMAGE
+Here is an easy tip for getting a zero inbox. 
+
+Add a filter to move any mail with "no-reply" in the sender in to a seperate folder, it is automated mail so is unlikely to be urgent.

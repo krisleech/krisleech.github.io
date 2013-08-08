@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Display TODO list in Conky"
-date: 2013-08-28 21:01
+date: 2013-08-05 21:01
 comments: true
 published: true
 categories: [linux, openbox]
@@ -9,9 +9,9 @@ categories: [linux, openbox]
 
 Show a TODO, or other text file, in Conky.
 
-<!--more-->
-
 ![desktop screenshot](/images/conky.png)
+
+<!--more-->
 
 ```bash
 vi ~/.conkyrc
