@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Fish PATH"
+date: 2013-07-11 21:01
+comments: true
+published: true
+categories: [shell, fish, gnu, linux]
+---
+
+```
+set -U fish_user_paths ~/bin
+```
+
+More information here: https://github.com/fish-shell/fish-shell/issues/527
