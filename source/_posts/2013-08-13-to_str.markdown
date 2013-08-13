@@ -1,0 +1,80 @@
+---
+layout: post
+title: "to_str in Ruby"
+date: 2013-08-13 21:01
+comments: true
+published: true
+categories: [ruby]
+---
+
+I thought I'd share a git commit from today which I found quite interesting. It
+is the adding of a `to_str` method to an `Address` value object. In the spec I
+type check the return on `to_str` to make sure it is a `String`.
+
+```
+Add Address#to_str since address can easily be coerced in to a String
+```
+
+<!--more-->
+
+First the spec:
+
+```ruby
+require 'spec_helper'
+require 'active_model'
+require 'virtus'
+require_relative '../../app/models/address'
+
+describe Address do
+  describe '#to_s' do
+    it 'includes all lines comma delimited' do
+      address = Address.new(:line_1 => 'a', :line_2 => 'b', :line_3 => 'c', :postcode => 'd')
+      address.to_s.should == 'a, b, c, d'
+    end
+
+    it 'excludes blank lines' do
+      address = Address.new(:line_1 => 'a', :line_3 => 'c', :postcode => 'd')
+      address.to_s.should == 'a, c, d'
+    end
+  end
+
+  describe '#to_str' do
+    it 'returns a string' do
+      address = Address.new(:line_1 => 'a', :postcode => 'b')
+      address.to_str.should be_instance_of(String)
+    end
+  end
+end
+```
+
+An object should only implementation `to_str` if it provides a superset of the
+`String` API, in other words it can duck type to a `String` and be used in place of
+a string.
+
+Therefore in my spec the safest thing to do is to a type check to make sure the
+reutrned object is a `String`.
+
+The implementation:
+
+```
+class Address
+  include Virtus::ValueObject
+  include ActiveModel::Validations
+
+  attribute :line_1, String
+  attribute :line_2, String
+  attribute :line_3, String
+  attribute :line_4, String
+  attribute :postcode, String
+
+  validates :line_1,   :presence => true
+  validates :line_2,   :presence => true
+  validates :postcode, :presence => true
+
+  def to_s
+    [line_1, line_2, line_3, line_4, postcode].reject(&:blank?).join(', ')
+  end
+
+  alias_method :to_str, :to_s
+end
+```
