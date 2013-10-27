@@ -7,7 +7,7 @@ published: true
 categories: [random]
 ---
 
-Setting `JAVA_HOME` is fish
+Setting `JAVA_HOME` in fish:
 
 ```
 set -U JAVA_HOME (which java)

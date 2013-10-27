@@ -54,8 +54,3 @@ enable_logging: 10
 ```
 
 This was largely inspired by the following post: http://cheind.blogspot.com/2008/12/method-hooks-in-ruby.html
-
-
-
-
-

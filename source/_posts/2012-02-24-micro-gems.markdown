@@ -1,14 +1,11 @@
 ---
 layout: post
-title: "Teaching Ruby to children"
-date: 2013-07-28 21:01
+title: "Micro Gems"
+date: 2012-02-24 21:01
 comments: true
 published: true
 categories: [ruby]
 ---
-
-Micro Gems
-24/02/2012
 
 After reading Jeff Kreeftmeijer's blog post on Micro Gems I decided to give it a go.
 

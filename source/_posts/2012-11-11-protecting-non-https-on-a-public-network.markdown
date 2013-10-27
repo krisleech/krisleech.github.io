@@ -1,19 +1,19 @@
 ---
 layout: post
-title: "Teaching Ruby to children"
-date: 2013-07-28 21:01
+title: "Protecting non-HTTPS connections on a public network"
+date: 2012-11-11 21:01
 comments: true
 published: true
-categories: [ruby]
+categories: [ssh, shell]
 ---
-Protecting non-HTTPS connections on a public network
-11/11/2012
 
 If you are using a public network, e.g a cafe, then you can listen to everyones HTTP traffic quite easily and snoop passwords and usernames from logins to non-SSL websites. Just fire up Wireshark in promiscuous mode to find out.
 
 To protect from this tunnel all HTTP traffic through an SSH connection to some machine on a secure network. The machine on a secure network will typically be a computer on your home/office network or a hosted server. The machine to which you are tunneling all your traffic will need a SSH server running. If you are using a machine on your home/office network you will also need to set your router to forward port 22 to the machine with the SSH server running. You will also need to know the public IP of the router or setup a Dynamic DNS service. For this reason it is typically easier to use a cheap hosted virtual server.
 
+```
 ssh -D 5222 interkonect.com -N -f
+```
 
 The above will create an SSH connection which will tunnel (i.e proxy) all traffic to the given domain, in my case interkonect.com.
 

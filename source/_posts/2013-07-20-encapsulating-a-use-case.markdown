@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "encapsulating a use case"
+title: "Encapsulating a use case"
 date: 2013-07-20 21:01
 comments: true
 published: false
@@ -29,8 +29,3 @@ class DeliverPackage
   end
 end
 ```
-
-
-{% gist 5580473 %}
-
-Foobar

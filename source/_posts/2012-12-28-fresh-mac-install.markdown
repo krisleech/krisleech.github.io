@@ -1,14 +1,11 @@
 ---
 layout: post
-title: "Teaching Ruby to children"
-date: 2013-07-28 21:01
+title: "Fresh Mac Install"
+date: 2012-08-20 21:01
 comments: true
 published: true
 categories: [ruby]
 ---
-
-Fresh Mac Install
-20/08/2012
 
 The basics for installing a Mac for development, todo: automate.
 

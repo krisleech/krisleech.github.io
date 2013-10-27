@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting RVM to work on Mac"
-date: 2010-5-14 10:00
+date: 2010-05-14 10:00
 comments: true
 published: true
 categories: [mac ruby]

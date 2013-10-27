@@ -4,7 +4,7 @@ title: "Coding 'home away from home' on MacOS"
 date: 2013-01-02 21:01
 comments: true
 published: true
-categories: [tmum, vim]
+categories: [tmux, vim]
 ---
 
 I code using the tmux and vim in the shell.

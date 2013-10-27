@@ -1,14 +1,11 @@
 ---
 layout: post
-title: "Teaching Ruby to children"
-date: 2013-07-28 21:01
+title: "linux on HP Pavilion g series Laptop"
+date: 2013-07-19 21:01
 comments: true
 published: true
-categories: [ruby]
+categories: [linux]
 ---
-
-Linux on HP Pavilion g series Laptop
-19/07/2013
 
 Each g series has a specific model, mine is g6-1394sa, the model is found under the battery.
 
@@ -26,8 +23,10 @@ Fixing suspend
 
 Install graphics driver
 
+```
 sudo apt-get install fglrx-driver
 sudo aticonfig --initial
+```
 
 Disable kernel mode setting (KMS):
 
@@ -35,7 +34,9 @@ vi /etc/default/grub
 
 and add:
 
+```
 GRUB_CMDLINE_LINUX="nomodeset"
+```
  
 reboot and close the lapptop lid or from terminal sudo pm-suspend.
 If this does not work you can change "shutting lid of laptop" to do nothing in System > Power Management.
