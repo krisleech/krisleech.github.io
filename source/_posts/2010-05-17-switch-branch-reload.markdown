@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Teaching Ruby to children"
+title: "Switching git branches"
 date: 2013-07-28 21:01
 comments: true
 published: true
-categories: [ruby]
+categories: [git]
 ---
 
 When switching branches make sure to restart the application server to ensure that the environment is reloaded. Branches may have different gem dependencies and configurations which can lead to frustration.

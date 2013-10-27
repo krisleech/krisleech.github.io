@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Teaching Ruby to children"
+title: "nested_set in a select"
 date: 2013-07-28 21:01
 comments: true
 published: true
