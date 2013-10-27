@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Random"
+date: 2013-10-27 21:01
+comments: true
+published: true
+categories: [ruby, random]
+---
+
+<!--more-->
+
+Reading "Rebuilding Rails" I noticed `split` can be used as such:
+
+```ruby
+'1/2/3/4/5/6/7/8'.split('/', 3)
+# => ['1', '2', '3/4/5/6/7/8']
+```
