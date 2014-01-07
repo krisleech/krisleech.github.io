@@ -1,0 +1,37 @@
+---
+layout: post
+title: "Installing Rubinius 2.2.1"
+date: 2013-01-07 21:01
+comments: true
+categories: [ruby]
+---
+
+Installing rbx 2.2.1
+
+<!--more-->
+
+```
+$ rbenv install rbx-2.2.1
+$ gem install rubysl bundler
+```
+
+Rubinus does not come with the Ruby standard library, it must be installed as a
+gem.
+
+```
+$ rbenv install rbx-2.2.1
+$ ruby -v
+
+  rbenv: bundle: command not found
+
+$ gem install bundler
+
+  Fetching: bundler-1.5.1.gem (100%)
+  Successfully installed bundler-1.5.1
+  Parsing documentation for bundler-1.5.1
+  An exception occurred running
+  /Users/krisleech/.rbenv/versions/rbx-2.2.1/library/bin/gem.rb:
+
+      Could not find 'rubysl-tracer' (~> 2.0) among 101 total gem(s)
+      (Gem::LoadError)
+```
