@@ -4,7 +4,7 @@ require "stringex"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "ik"
+ssh_user       = "teamcoding.com"
 ssh_port       = "22"
 document_root  = "~/sites/new.teamcoding.com/"
 rsync_delete   = true
