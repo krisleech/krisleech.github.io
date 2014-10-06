@@ -7,7 +7,7 @@ published: true
 categories: [tmux, rspec]
 ---
 
-```viml
+```
 let g:turbux_command_rspec  = 'bundle exec rspec'
 ```
 
