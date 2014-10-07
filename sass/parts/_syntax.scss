@@ -38,7 +38,8 @@ $solarized: light !default;
   $base3:   $_base03;
 }
 
-$pre-bg: $color-gray04;
+// $pre-bg: $color-gray04;
+$pre-bg: #EDEDC0;
 $pre-border: $color-gray03;
 
 article{
@@ -121,7 +122,6 @@ figure.code{
 	td.code{
 		width: 100%;
 		padding-left: 15px;
-		overflow-x: auto;
 	}
 }
 .entry-content .gist{

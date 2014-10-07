@@ -13,7 +13,7 @@ Redis. You must add your own script to start Sidekiq.
 
 An example `.travis.yml`
 
-```
+```yaml
 language: ruby
 before_script:
   - bundle exec sidekiq -d -r ./spec/dummy_app/app.rb -L /tmp/sidekiq.log
