@@ -9,15 +9,13 @@ categories: [ruby, clojure]
 
 http://jrheard.tumblr.com/post/40024238467/getting-started-with-clojure
 
-Clojure == Ruby
-Leiningen == Bundler, IRB
-Rubygem == JAR
-Rubygems .org == 
-Ruby Toolbox == 
+* Clojure == Ruby
+* Leiningen == Bundler, IRB
+* Rubygem == JAR
+* Rubygems.org == 
+* Ruby Toolbox == 
 
-Applications have something similar to a gemspec which includes dependencie,
-license etc.
-
+```
 require 'http'
 (require '[clj-http.client :as client])')
 
@@ -27,4 +25,4 @@ HTTPClient.get('http://yelp.com')
 (println (apply str (take 50 (:body (client/get "http://google.com")))))
 
 puts HTTPClient.get('http://google.com').body[0..49].join
-
+```
