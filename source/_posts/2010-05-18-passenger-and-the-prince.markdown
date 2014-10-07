@@ -1,10 +1,10 @@
 ---
-layout: post 
-title: "Teaching Ruby to children" 
+layout: post
+title: "Passenger and the Prince"
 date: 2013-07-28 21:01
-comments: true 
-published: true 
-categories: [ruby] 
+comments: true
+published: true
+categories: [ruby]
 ---
 
 I've been playing with using PrinceXML to generate PDF's in my Rails
