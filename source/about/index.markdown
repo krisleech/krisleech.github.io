@@ -24,3 +24,4 @@ Call: 0115 714 8888
 * [LinkedIn](http://uk.linkedin.com/in/httpskrisleech)
 * [Twitter](http://twitter.com/#!/krisleech)
 * [Gist](https://gist.github.com/krisleech)
+* [Stackoverflow](https://careers.stackoverflow.com/krisleech)
