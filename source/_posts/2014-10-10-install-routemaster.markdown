@@ -106,7 +106,9 @@ The UUID `demo` is already known to RouteMaster see `ROUTEMASTER_CLIENTS` in
 
 If you get a `Timeout` error most likely the port proxying is not setup correctly. Ensure `pow` is running.
 
-A `cannot conned to bus` error is most likely an authentication issue between RouteMaster and RabbitMQ. Check the output of `foreman` to confirm. If so make sure the virtual host is setup and the `guest` user is assigned with full permissions:
+A `cannot connect to bus` error is most likely an authentication issue between RouteMaster and RabbitMQ. 
+Check the output of `foreman` to confirm, you might see something like `Bunny::PossibleAuthenticationFailureError`. 
+If so make sure the virtual host is setup and the `guest` user is assigned with full permissions:
 
 ```
 rabbitmqctl list_users
