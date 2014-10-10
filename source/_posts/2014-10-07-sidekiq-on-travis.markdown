@@ -11,6 +11,8 @@ If you need Sidekiq on Travis CI then you only need to do two things, start
 Redis and Sidekiq. Travis has build-in support for installing and starting
 Redis. You must add your own script to start Sidekiq.
 
+<!--more-->
+
 An example `.travis.yml`
 
 ```yaml
