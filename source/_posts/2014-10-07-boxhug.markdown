@@ -6,19 +6,17 @@ published: true
 categories: [project]
 ---
 
+As developer of the BoxHug MVP I am pleased to annonce we won the Richard
+Branson "[Pitch to Rich](http://www.virginmediapioneers.com/2014/03/pitch-to-rich-competition-win-the-chance-to-pitch-to-richard-branson/)" competition for startups.
+
+Congratulations to all involved!
+
 Founded in the summer of 2013 and based in Derbyshire, Boxhug is a
 professional, first-class storage company, by the box. Our team is passionate
 about creating a groundbreaking space management service that is convenient,
 hassle-free and always available on-demand wherever you are.
 
 <!--more-->
-
-With world-class customer service, lightning delivery and a growing network of
-warehouses, Boxhug is the easiest way for people to store their stuff safely
-and securely, while keeping their items accessible. Whoever you are, and
-whatever the amount of storage you need - we can help!
-
-http://vimeo.com/92310044
 
 <iframe allowfullscreen="" frameborder="0" height="315"
 src="//www.youtube.com/embed/zaavuvuU6mw" width="560"></iframe>
@@ -27,9 +25,6 @@ Virgin Pioneer "Pitch to Rich" Winners
 
 <img src="http://about.virginmedia.com/images/press_releases/IgorRubets02.JPG" />
 
-http://about.virginmedia.com/press-release/9432/sir-richard-bransons-backing-sealed-with-a-boxhug-and-a-mipic-at-pitch-to-rich-2014
-
-http://www.virginmediapioneers.com/2014/04/vote-for-pitch-to-rich-2014-competition-finalists/
+Press release: [Richard Branson backing sealed with a Boxhug](http://about.virginmedia.com/press-release/9432/sir-richard-bransons-backing-sealed-with-a-boxhug-and-a-mipic-at-pitch-to-rich-2014)
 
 <img src="https://pbs.twimg.com/media/BidZUd4CIAAljJD.jpg" />
-
