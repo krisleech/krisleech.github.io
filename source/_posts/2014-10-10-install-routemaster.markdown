@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Installing and publishing events to RouteMaster"
+title: "Installing and publishing events to Routemaster"
 date: 2014-10-10 09:36
 comments: true
 published: true
