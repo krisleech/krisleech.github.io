@@ -9,20 +9,32 @@ categories: [ruby, clojure]
 
 http://jrheard.tumblr.com/post/40024238467/getting-started-with-clojure
 
-* Clojure == Ruby
-* Leiningen == Bundler, IRB
-* Rubygem == JAR
-* Rubygems.org == 
-* Ruby Toolbox == 
+* Clojure -> Ruby
+* Leiningen -> Bundler, IRB
+* Rubygem -> JAR
+* Rubygems.org -> ?
+* Ruby Toolbox -> ?
+
+```ruby
+require 'http'
+```
 
 ```
-require 'http'
 (require '[clj-http.client :as client])')
+```
 
-(client/get "http://www.yelp.com")
+```ruby
 HTTPClient.get('http://yelp.com')
+```
 
-(println (apply str (take 50 (:body (client/get "http://google.com")))))
+```
+(client/get "http://www.yelp.com")
+```
 
+```ruby
 puts HTTPClient.get('http://google.com').body[0..49].join
+```
+
+```
+(println (apply str (take 50 (:body (client/get "http://google.com")))))
 ```
