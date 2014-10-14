@@ -87,7 +87,7 @@ pow
 Now the fun starts...
 
 ```
-gem install routermaster-client
+gem install routemaster-client
 irb
 ```
 
@@ -96,7 +96,7 @@ In our `irb` session we are going to try and connect to RouteMaster:
 ```ruby
 require 'routemaster/client'
 
-client = Routemaster::Client.new(url: “https://routemaster.dev”, uuid: ‘demo’)
+client = Routemaster::Client.new(url: 'https://routemaster.dev', uuid: ‘demo’)
 ```
 
 The UUID `demo` is already known to RouteMaster see `ROUTEMASTER_CLIENTS` in
