@@ -14,6 +14,8 @@ like I'm at home.
 
 This also works really if you put your coding environment on a VPS.
 
+<!--more-->
+
 Setup SSH Turn on sshd, System Preferences > Sharing > Remote Login
 
 Add your public key to `~/.ssh/authorized_keys` (create the file if it does not

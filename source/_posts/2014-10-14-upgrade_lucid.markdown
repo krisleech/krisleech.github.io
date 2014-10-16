@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Upgrading Lucid LTS (10.04) to Trusty LTS (14.04)"
+title: "Upgrading Lucid LTS to Trusty LTS"
 date: 2014-10-14 09:36
 comments: true
 published: true
 categories: [unix, ubuntu]
 ---
 
-These are the steps I took to upgrade my blogs server from Lucid LTS to Trusty
+These are the steps I took to upgrade my blogs server from Lucid (10.04) LTS to Trusty (14.04)
 LTS.
 
 <!--more-->

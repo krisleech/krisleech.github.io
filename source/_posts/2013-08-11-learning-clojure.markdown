@@ -7,6 +7,10 @@ published: true
 categories: [ruby, clojure]
 ---
 
+Some notes on learing Clojure
+
+<!--more-->
+
 http://jrheard.tumblr.com/post/40024238467/getting-started-with-clojure
 
 * Clojure -> Ruby
@@ -14,6 +18,8 @@ http://jrheard.tumblr.com/post/40024238467/getting-started-with-clojure
 * Rubygem -> JAR
 * Rubygems.org -> ?
 * Ruby Toolbox -> ?
+
+Side by side Ruby against Clojure.
 
 ```ruby
 require 'http'

@@ -11,6 +11,8 @@ Problem: "Cookie disabled" pop-up in IE7 when using Alfresco share in an iframe.
 
 Summery: You need to add a P3P header to all responses from Share. The P3P header must link to an XML file which tells IE to allow the iframe to have its own cookies.
 
+<!--more-->
+
 The easiest way to do this is to proxy Alfresco share through Apache and use mod_headers to add the header to every request.
 
 CONFIGURE APACHE

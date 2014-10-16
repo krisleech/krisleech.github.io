@@ -13,6 +13,8 @@ I installed the CrunchBang distro which first heard about in an article on Ruby 
 
 CrunchBang is Debian based. Therefore I would assume that any Debian distro (e.g Ubuntu) will run on any of the HP Pavilion g series laptops. If you can confirm this please leave a comment.
 
+<!--more-->
+
 I didn't have to do anything special to use wireless or sound. I've not yet tried the built-in webcam.
 
 The only thing I found not to work is waking after suspend/hibernation. After shutting the laptop it would wake, but the screen remained blank. This is kind of annoying and I am trying to figure out how to fix it. I think it is something to do with the graphics card. Any tips welcome! UPDATE: I fixed this, see bottom of article.

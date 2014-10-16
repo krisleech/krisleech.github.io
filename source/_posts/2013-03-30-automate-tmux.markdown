@@ -9,6 +9,8 @@ categories: [tmux, ruby]
 
 Here is an example of how to automate startup of your development environment with tmux. I use Ruby/Rails, Rspec and Vim so this shows their use, but it would equally apply to any terminal based setup.
 
+<!--more-->
+
 Update: I wrote a rubygem to automate the creating of tmux configurations like the one below: tmuxinator. 
 
 Create a function which starts a tmux session, sends key strokes to create windows and run commands, then attach to the session. I put this file in ~/bin/zsh.

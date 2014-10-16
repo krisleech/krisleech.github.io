@@ -68,6 +68,10 @@ github_repo_count: 3
 github_show_profile_link: true
 github_skip_forks: true
 
+stackoverflow_user: krisleech
+
+linkedin_user: krisleech
+
 # Twitter
 twitter_user: krisleech
 twitter_tweet_button: true
