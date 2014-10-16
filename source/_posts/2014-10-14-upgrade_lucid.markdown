@@ -1,4 +1,16 @@
-# Upgrading Lucid LTS (10.04) to Precise LTS (12.04) to Trusty LTS (14.04)
+---
+layout: post
+title: "Upgrading Lucid LTS (10.04) to Trusty LTS (14.04)"
+date: 2014-10-14 09:36
+comments: true
+published: true
+categories: [unix, ubuntu]
+---
+
+These are the steps I took to upgrade my blogs server from Lucid LTS to Trusty
+LTS.
+
+<!--more-->
 
 First backup your server as a new restorable image.
 
