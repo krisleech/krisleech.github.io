@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting started with Clojure"
-date: 2015-03-23 09:36
+date: 2015-03-02 09:36
 comments: true
 published: true
 categories: [clojure]
