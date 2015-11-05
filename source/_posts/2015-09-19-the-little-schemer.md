@@ -23,7 +23,9 @@ On one of the first pages we are presented with lists and the question:
 Is (1 2 3) a list?
 ```
 
-If you want to type this, as is, in to Clojure REPL you will get an error. This is because LISP is homoiconic, meaning the language syntax is also valid data. LISP uses a list as a container for a function and its inputs. The first element is a function followed by the inputs. So `(1 2 3)` is evaluated by the LISP reader as `1` being a function to be given the inputs `2` and `3`, which raises an error since `1` is not a function.
+If you want to type this, as is, in to Clojure REPL you will get an error. This is because LISP is homoiconic, meaning Lisp code is valid Lisp data. LISP, which stands for "list processing", uses a list (e.g. `(+ 2 3)`) in code as a container for a function and its inputs.
+The first element is a function followed by the inputs. Something like `(+ 2 3)` returns `5` because `+` is a function. But `(1 2 3)` is evaluated by the LISP reader as `1` being a function to be given the inputs `2` and `3`, which raises an error since `1` is not a function.
+Lisp code is valid Lisp data.
 
 Instead you need to quote the list:
 
