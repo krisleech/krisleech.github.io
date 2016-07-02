@@ -46,3 +46,11 @@ Your site should now have SSL enabled, you will have to renew your certificate i
 
 You might want to copy/paste the new vhost file in to an existing vhost for the
 domain and enable redirect from HTTP to HTTPS.
+
+## Update: Renewing the certificate
+
+```
+cd sources
+git pull
+./letsencrypt-auto certonly
+```
