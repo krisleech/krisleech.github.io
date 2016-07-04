@@ -1,14 +1,12 @@
 ---
 layout: page
-title: "contact"
+title: "Get in touch"
 date: 2013-07-20 23:01
 comments: false
 sharing: true
 footer: true
 ---
 
-#h2 Get in touch
+You can mail me at my Gmail address. First name, last name - with a dot between them. Or use [LinkedIn](https://uk.linkedin.com/in/krisleech/)
 
-You can mail me at my Gmail address. First name dot last name.
-
-Send PGP encrypted or signed mail using my [public key](/kris.leech-gmail-public-gpg-key).
+To send PGP encrypted or signed mail use my [public key](/keys/pgp).
