@@ -54,3 +54,11 @@ cd sources
 git pull
 ./letsencrypt-auto certonly
 ```
+
+## Update: Renewing certificates (4/July/2016)
+
+```
+cd sources
+git pull
+./letsencrypt-auto renew
+```
