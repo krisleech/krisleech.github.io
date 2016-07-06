@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/krisleech
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://teamcoding.com
+  * I am krisleech (https://keybase.io/krisleech) on keybase.
+  * I have a public key ASAZreLYPIXpsQV6gtgNV7aficJb7qfNPIbSoHvOVrvWqQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "012019ade2d83c85e9b1057a82d80d57b69f89c25beea7cd3c86d2a07bce56bbd6a90a",
+            "host": "keybase.io",
+            "kid": "012019ade2d83c85e9b1057a82d80d57b69f89c25beea7cd3c86d2a07bce56bbd6a90a",
+            "uid": "a7643b3484156e9b4ec8e4a4619cbe19",
+            "username": "krisleech"
+        },
+        "service": {
+            "hostname": "teamcoding.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1467795230,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1467795183,
+        "hash": "4e47bbbdc3d7e92bcb97f16474c9eb8cd7445dc4e4d6cbfe32a4963b92298963ec6b526d500e34762a08a164a555f24ca37e67e08fd73692cf336743570e189f",
+        "seqno": 510287
+    },
+    "prev": "0afdacafc9172b9cc0d02c4c797e6ff494468dd6552e698c77ef6f663126c982",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgGa3i2DyF6bEFeoLYDVe2n4nCW+6nzTyG0qB7zla71qkKp3BheWxvYWTFAvd7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMTlhZGUyZDgzYzg1ZTliMTA1N2E4MmQ4MGQ1N2I2OWY4OWMyNWJlZWE3Y2QzYzg2ZDJhMDdiY2U1NmJiZDZhOTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMTlhZGUyZDgzYzg1ZTliMTA1N2E4MmQ4MGQ1N2I2OWY4OWMyNWJlZWE3Y2QzYzg2ZDJhMDdiY2U1NmJiZDZhOTBhIiwidWlkIjoiYTc2NDNiMzQ4NDE1NmU5YjRlYzhlNGE0NjE5Y2JlMTkiLCJ1c2VybmFtZSI6ImtyaXNsZWVjaCJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoidGVhbWNvZGluZy5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE2In0sImN0aW1lIjoxNDY3Nzk1MjMwLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0Njc3OTUxODMsImhhc2giOiI0ZTQ3YmJiZGMzZDdlOTJiY2I5N2YxNjQ3NGM5ZWI4Y2Q3NDQ1ZGM0ZTRkNmNiZmUzMmE0OTYzYjkyMjk4OTYzZWM2YjUyNmQ1MDBlMzQ3NjJhMDhhMTY0YTU1NWYyNGNhMzdlNjdlMDhmZDczNjkyY2YzMzY3NDM1NzBlMTg5ZiIsInNlcW5vIjo1MTAyODd9LCJwcmV2IjoiMGFmZGFjYWZjOTE3MmI5Y2MwZDAyYzRjNzk3ZTZmZjQ5NDQ2OGRkNjU1MmU2OThjNzdlZjZmNjYzMTI2Yzk4MiIsInNlcW5vIjoxMCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEAkUMnX3SbYjxXhghFqGQkE/OQhGrrcTA/OHqzG1seSANJ01GlXQe2b8E3Og4tttwy12jCEVKx+ux18jbr4WNYGqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgBhrb7k5jppsGzoMqDWVvXCtRQxn5kaIyhG4Z8yh51cCjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/krisleech
+
+==================================================================
